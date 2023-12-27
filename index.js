@@ -2,9 +2,8 @@ import { Server } from 'socket.io';
 
  const io = new Server(9000, {
     cors: {
-        origin: '*',
-        methods: ['GET', 'POST']
-    }
+        origin: 'https://whatsapp-clone-forntend-b.vercel.app',
+     }
 });
 
 
